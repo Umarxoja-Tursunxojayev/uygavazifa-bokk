@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book</title>
+    <link rel="stylesheet" href="./home.html">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../../css/style.min.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="header-wrapper">
+                <img src="../images/Group 193.png" alt="img">
+                <div class="header-search">
+                    <i class='bx bx-search-alt-2' ></i>
+                    <input type="search" placeholder="Search books" id="search-header">
+                </div>
+                <div class="header-btns">
+                    <i class='bx bx-sun' ></i>
+                    <a href="../../index.html"><button>Logout</button></a>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <p id="showingbook">Showing 18 Result(s)</p>
+                <button>
+                    <i class='bx bxs-calendar' ></i> Order by newest
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="aside">
+                <h4>Bookmarks</h4>
+                <p>If you don’t like to read, you haven’t found the right book</p>
+                <ul id="aside-ul">
+                </ul>
+            </section>
+
+            <section id="content-books">
+            </section>
+        </div>
+    </main>
+
+
+    <script src="../js/utils.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

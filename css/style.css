@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#loginmain {
+  background-image: url("/assets/images/Login.jpg");
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+#loginmain .black-fon {
+  top: 0;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.639);
+}
+#loginmain .login-wrapper {
+  position: relative;
+  z-index: 9999;
+  padding: 10px;
+  padding-top: 100px;
+  width: 300px;
+  height: 323px;
+  margin: 0 auto;
+  display: flex;
+}
+#loginmain .login-wrapper form img {
+  width: 226px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+#loginmain .login-wrapper form label {
+  width: 270px;
+  height: 45px;
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+#loginmain .login-wrapper form label i {
+  color: white;
+  position: absolute;
+  top: 11px;
+  left: 5px;
+  font-size: 20px;
+}
+#loginmain .login-wrapper form label input {
+  background: transparent;
+  width: 100%;
+  padding-left: 30px;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: white;
+  outline: none;
+}
+#loginmain .login-wrapper form button {
+  width: 270px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  color: #0D75FF;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-bottom: 11px;
+}
+#loginmain .login-wrapper form a {
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  max-width: 1359px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+header {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 6px -2px, rgba(0, 0, 0, 0.3) 0px 3px 5px -3px;
+  width: 100%;
+  position: fixed;
+  background: white;
+  padding: 14px 0;
+  z-index: 99;
+}
+header nav .header-wrapper {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .header-wrapper img {
+  height: 48px;
+  object-fit: cover;
+}
+header nav .header-wrapper .header-search {
+  position: relative;
+  width: 670px;
+  height: 48px;
+}
+header nav .header-wrapper .header-search i {
+  position: absolute;
+  font-size: 27px;
+  top: 10px;
+  left: 10px;
+}
+header nav .header-wrapper .header-search input {
+  background: #E3E6EB;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 0 40px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: black;
+  outline: none;
+  font-size: 16px;
+}
+header nav .header-wrapper .header-btns {
+  display: flex;
+  gap: 10px;
+}
+header nav .header-wrapper .header-btns i {
+  cursor: pointer;
+  font-size: 30px;
+  color: rgb(199, 199, 38);
+}
+header nav .header-wrapper .header-btns button {
+  height: 40px;
+  padding: 10px 23px;
+  color: white;
+  background: #0D75FF;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+header nav .header-bottom {
+  display: flex;
+  justify-content: flex-end;
+  gap: 530px;
+  padding: 11px 0;
+}
+header nav .header-bottom p {
+  font-weight: 700;
+  color: #222531;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+header nav .header-bottom button {
+  display: flex;
+  align-items: center;
+  height: 34px;
+  padding: 5px 13px;
+  gap: 10px;
+  background: #A6B0C3;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+main {
+  padding-top: 140px;
+}
+main .container {
+  display: flex;
+}
+main .container #aside {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding-top: 70px;
+  width: 308px;
+  height: 100vw;
+  background: white;
+  padding-right: 50px;
+}
+main .container #aside h4 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+main .container #aside p:nth-child(2) {
+  width: 218px;
+  font-weight: 400;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+main .container #aside ul {
+  width: 350px;
+}
+main .container #aside ul li {
+  margin-top: 25px;
+  padding: 10px 15px;
+  background: #F8FAFD;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 282px;
+  height: 72px;
+}
+main .container #aside ul li div:nth-child(1) {
+  margin-top: 30px;
+}
+main .container #aside ul li div:nth-child(1) p {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 5px;
+}
+main .container #aside ul li div:nth-child(1) p:nth-child(2) {
+  color: #757881;
+}
+main .container #aside ul li div:nth-child(2) {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  right: 10px;
+}
+main .container #aside ul li div:nth-child(2) i {
+  cursor: pointer;
+  font-size: 24px;
+}
+main .container #content-books {
+  justify-content: space-between;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 40px;
+  padding-top: 70px;
+  background: rgba(227, 230, 235, 0.4901960784);
+}
+main .container #content-books .card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  width: 282px;
+  height: 431px;
+  padding: 13px 18px;
+  background: white;
+}
+main .container #content-books .card img {
+  padding: 20px;
+  width: 249px;
+  height: 202px;
+  margin-bottom: 19px;
+}
+main .container #content-books .card p:nth-child(2) {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+main .container #content-books .card p:nth-child(3) {
+  color: #757881;
+  font-weight: 500;
+  font-size: 13px;
+}
+main .container #content-books .card p:nth-child(4) {
+  color: #757881;
+  font-weight: 500;
+  font-size: 13px;
+}
+main .container #content-books .card div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+main .container #content-books .card div button:first-child {
+  padding: 10px 25px;
+  background: #FFD80D;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+}
+main .container #content-books .card div button:last-child {
+  padding: 10px 25px;
+  background: rgba(13, 117, 255, 0.0509803922);
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #0D75FF;
+}
+main .container #content-books .card a button {
+  width: 100%;
+  height: 37px;
+  border: none;
+  background: #75828A;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#moreInfo {
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+}
+#moreInfo .info-left {
+  width: 500px;
+  height: 400px;
+}
+#moreInfo .info-left img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+#moreInfo .info-right h2 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+#moreInfo .info-right p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
